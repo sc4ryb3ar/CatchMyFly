@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
        GetRSSDataTask task = new GetRSSDataTask();
         
        // Start download RSS task
-       task.execute("http://www.hatchesmagazine.com/blogs/Hatches/feed/");
+       task.execute("http://hatchesmagazine.com/blogs/Hatches/feed/");
         
        // Debug the thread name
        Log.d("ITCRssReader", Thread.currentThread().getName());

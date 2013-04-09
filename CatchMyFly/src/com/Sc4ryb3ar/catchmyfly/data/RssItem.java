@@ -4,14 +4,12 @@ package com.Sc4ryb3ar.catchmyfly.data;
  * Our application needs title and link data.
  *
  * @author ITCuties
- * After scouring the internet this code seemed like the best resource I could find
- * THIS IS ALL THEIR CODE 
  */
 public class RssItem {
-    // item title
+ 
     private String title;
-    // item link
     private String link;
+      
     public String getTitle() {
         return title;
     }
